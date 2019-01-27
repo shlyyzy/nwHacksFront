@@ -70,9 +70,9 @@ def updateSpotify(selected_playlist, mins):
         
         # track to get stuff from
         track1 = sp.user_playlist_tracks("spotify", playlist_id=sel_playlist[0])
-        print(track1)
-        print('max time:')
-        print(max_time)
+        #print(track1)
+        #print('max time:')
+        #print(max_time)
         
         # Get my playlists.  
         my_playlists = sp.user_playlists(username)
