@@ -8,25 +8,156 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #a5bff5;
+  background-image: url('https://media.giphy.com/media/3kzuv0Mjcymg4e2smV/giphy.gif');
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "Georgia", "Arial";
+  /*color: rgb(100, 98, 98);*/
+
+  /*background: linear-gradient(10deg, #90bcfd, #4670bd, #b0cae7, #95b8ec);
+  background-size: 800% 800%;*/
 }
 
+
+header { 
+  display: block;
+  font-size: 2.3em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Georgia";
+  color: #383838;
+}
+
+p { 
+  display: block;
+  font-size: 1.2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Georgia";
+}
+label{
+  display: block;
+  font-size: 0.7em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Georgia";
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*.App-background_colour{
+  background: linear-gradient(12deg, #890fea, #ffe98a, #d74177, #4ad1b0);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 11s ease infinite;
+-moz-animation: AnimationName 11s ease infinite;
+animation: AnimationName 11s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
 }
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+}
+*/
+
+/* Style the buttons */
+.label {
+  border: black;
+  outline: black;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-family: "Georgia";
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .label:hover {
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+
+input[type="text"] {
+  font-family: Georgia;
+  font-style: italic;
+  color: red;
+  font-size: 12px;
+}
+
+  h1 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 7px;
+  }
+
+  p {
+    color: #383233;
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+.Logo {
+  background-image: url(https://giphy.com/gifs/https://media.giphy.com/media/3kzuv0Mjcymg4e2smV/giphy.gif);
+}
+
+#selector {
+  width:100%;
+  height:100%;
+}
+
+#visualDiv{
+  background-color: white;
+  color: white;
+}
+
+#section1{
+  min-height: 100vh; 
+}
+
+#section2{
+  min-height: 100vh; 
+}
+
+div{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
