@@ -82,7 +82,6 @@ class App extends Component {
     onCreate() {
         var min = "FML...";
         min = document.getElementById("MINS").value;
-<<<<<<< HEAD
         min = Math.abs(min);
         if (min > 999) {
             min = 50
@@ -90,11 +89,6 @@ class App extends Component {
         console.log(this.state.typeOfMusic + "||" + min);
 
         var url = "http://209.87.56.133:8080/" + this.state.typeOfMusic + "/" + min;
-=======
-        console.log(this.state.typeOfMusic + "||" + min);
-
-        var url = "http://10.19.133.224:8080/" + this.state.typeOfMusic + "/" + min;
->>>>>>> 1fa5e034b05650464fa8614e449406312bae28d8
         fetch(url)
             .then(function (response) {
                 return response.text();
@@ -280,11 +274,7 @@ class App extends Component {
                 <div>
 
                     <iframe src={this.state.res}
-<<<<<<< HEAD
                             width={window.innerWidth} height={window.innerHeight / 2} frameBorder="0"
-=======
-                            width={window.innerWidth} height={window.innerHeight/2} frameBorder="0"
->>>>>>> 1fa5e034b05650464fa8614e449406312bae28d8
                             allowTransparency="true" allow="encrypted-media"></iframe>
 
 
